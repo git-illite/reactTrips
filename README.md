@@ -1,5 +1,5 @@
 # Citibike Trips app using React. Deployed at
-https://elaborate-peony-6b2d1c.netlify.app/Trips
+https://elaborate-peony-6b2d1c.netlify.app/
 
 # Getting Started with Create React App
 
