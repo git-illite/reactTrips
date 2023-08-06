@@ -13,7 +13,7 @@ function Trip() {
 
     useEffect(() => {
       setLoading(true);
-         fetch(`https://reacttripsapi-production.up.railway.app/api/trips/${id}`)
+         fetch(`https://reacttripsapi.onrender.com/api/trips/${id}`)
           .then(res => res.json())
           .then((data) => {
               //console.log(data)
