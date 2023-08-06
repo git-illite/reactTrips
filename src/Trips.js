@@ -11,7 +11,7 @@ export default function Trips(props) {
     const navigate = useNavigate();
 
     useEffect(()=>{
-        fetch(`https://reacttripsapi-production.up.railway.app/api/trips?page=${page}&perPage=${perPage}`)
+        fetch(`https://reacttripsapi.onrender.com/api/trips?page=${page}&perPage=${perPage}`)
             .then((res) => res.json())
             .then((data) => {
               setTrips(data);
